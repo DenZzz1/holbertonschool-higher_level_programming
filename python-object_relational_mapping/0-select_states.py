@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Lists all states with a name starting with N from the database."""
 
 import MySQLdb

@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Lists all states matching the name argument from hbtn_0e_0_usa"""
 import MySQLdb
 import sys
