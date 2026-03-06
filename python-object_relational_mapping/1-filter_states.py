@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/home/codespace/.python/current/bin/python3
 """Lists all states with name starting with N from hbtn_0e_0_usa"""
 import MySQLdb
 import sys
