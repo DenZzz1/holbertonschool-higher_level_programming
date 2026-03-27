@@ -1,9 +1,8 @@
 const character = document.querySelector("#character");
 
 fetch("https://swapi-api.hbtn.io/api/people/5/?format=json")
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (data) {
+  .then(response => response.json())
+  .then(data => {
     character.textContent = data.name;
-  });
+  })
+  .catch(error => console.log(error));
